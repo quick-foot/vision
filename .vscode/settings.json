@@ -1,0 +1,28 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/build": true,
+        "**/coverage/**/*": true
+    },
+    "[yaml]": {
+        "editor.tabSize": 4
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true
+    },
+    "html.format.wrapAttributes": "force-aligned",
+    "html.format.wrapLineLength": 100,
+    "tslint.alwaysShowRuleFailuresAsWarnings": false,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.printWidth": 100,
+    "prettier.proseWrap": "always",
+    "prettier.htmlWhitespaceSensitivity": "ignore",
+    "prettier.disableLanguages": ["html", "angular"],
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}
