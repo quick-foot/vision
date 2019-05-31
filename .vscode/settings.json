@@ -15,8 +15,10 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
     },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 100,
+    "html.format.endWithNewline": true,
     "tslint.alwaysShowRuleFailuresAsWarnings": false,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
@@ -24,5 +26,6 @@
     "prettier.proseWrap": "always",
     "prettier.htmlWhitespaceSensitivity": "ignore",
     "prettier.disableLanguages": ["html", "angular"],
+    "prettier.tslintIntegration": true,
     "typescript.tsdk": "node_modules\\typescript\\lib"
 }
