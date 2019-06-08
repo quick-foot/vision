@@ -15,7 +15,6 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.tslint": true
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "html.format.wrapAttributes": "force-aligned",
     "html.format.wrapLineLength": 100,
     "html.format.endWithNewline": true,
